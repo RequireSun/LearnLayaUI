@@ -2,7 +2,7 @@
  * Created by kelvinsun on 18/4/7.
  */
 
-var spriteIndex = './image/sprite-index.png';
+var spriteIndex = './images/sprite-index.png';
 
 var domMap = {
     'div': 'Sprite',
@@ -43,7 +43,7 @@ var DOM = render('View', {
     height: 40,
 }, [
     render('img', {
-        backgroundImage: './image/laba.jpg',
+        backgroundImage: './images/laba.jpg',
         width: 32,
         height: 28,
     }),
@@ -55,7 +55,7 @@ Laya.stage.addChild(DOM);
 //创建舞台，默认背景色是黑色的
 // Laya.init(600, 300);
 // var img = render('div', {
-//     backgroundImage: './image/bd_logo1.png',
+//     backgroundImage: './images/bd_logo1.png',
 //     backgroundPosition: '100 50',
 // }, [
 //     render('span', {

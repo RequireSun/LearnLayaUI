@@ -9,7 +9,7 @@ var bg = new Laya.Image();
 
 bg.width = 375;
 bg.height = 40;
-bg.skin = './image/bg_414554.png';
+bg.skin = './images/bg_414554.png';
 bg.sizeGrid = '1,1,1,1,1';
 
 Laya.stage.addChild(bg);
@@ -30,7 +30,7 @@ var horn = new Laya.Image();
 
 horn.width = 16;
 horn.height = 16;
-horn.skin = './image/laba.jpg';
+horn.skin = './images/laba.jpg';
 horn.sizeGrid = '0,0,0,0,0';
 
 hBox.addChild(horn);
@@ -77,7 +77,7 @@ var portrait = new Laya.Image();
 
 portrait.width = 25;
 portrait.height = 25;
-portrait.skin = './image/portrait.jpg';
+portrait.skin = './images/portrait.jpg';
 portrait.sizeGrid = '0,0,0,0,0';
 
 hBox.addChild(portrait);
